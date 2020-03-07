@@ -5,9 +5,19 @@ $color-secondary: #58e1c1;
 $color-tertiary: #51ddfc;
 
 // Buttons Color Variables
-$color-btn: #fff;
-// $color-default: #51ddfc;
-// $color-error: #e4757a;
-// $color-info: #927bc1;
-// $color-success: #63cc82;
-// $color-warning: #fd7856;
+$default: #51ddfc;
+$default-light: lighten($default, 15%);
+$error: #e4757a;
+$error-light: lighten($error, 15%);
+$info: #927bc1;
+$info-light: lighten($info, 15%);
+$success: #63cc82;
+$success-light: lighten($success, 15%);
+$warning: #fd7856;
+$warning-light: lighten($warning, 15%);
+
+// Images Color Variables
+$img-brdr: #ccc;
+
+// Media Queries Variables
+$break-m: 768px;
